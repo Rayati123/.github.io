@@ -1,0 +1,110 @@
+body{
+    font-family: 'Times New Roman';
+    margin: 0;
+
+}
+nav {
+    height: 70px;
+    display: flex;
+    
+    }
+    .secondary-block{
+        color: rgb(255, 255, 255);
+        background-color: rgb(4, 186, 101);
+    }
+    a{
+        color: #c8c8c8;
+        font-size: larger;
+     }
+
+    nav h2{
+        margin: 0px;
+        padding: 20px 0px 20px 15px;
+        color: black;
+        font-weight: bold;
+    }
+    nav ul{
+        display: flex;
+        margin: 0px;
+        padding: 24px;
+        list-style: none;
+    }
+    
+    nav li{
+        margin-left: 15px;
+    }
+    header{
+        text-align: center;
+        padding: 40px;
+        font-weight: 900;
+    }
+    .content{
+        max-width: 800px;
+        margin: 0 auto;
+        color: blue;
+        
+    }
+    header h2{
+        color:rgb(74, 4, 186);
+        font-weight: bold;
+    }
+    header img{
+        width: 150px;
+        border-radius: 75px;
+        box-shadow: 3px 3px 6px rgb(160, 160, 160);
+    }
+    section{
+        padding: 40px;
+    }
+
+    div h3{
+        color: black;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    #xp ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    #xp li{
+       margin-bottom: 10px;
+    }
+
+    #xp aside{
+        float: right;
+        
+
+    }
+
+    #education ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+    }
+    #education li{
+        margin-bottom: 10px;
+
+    }
+
+    #education aside{
+        float: right
+    }
+
+    footer{
+        padding: 40px;
+    }
+    
+    footer ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    .links{
+        margin-bottom: 25px;
+        width: 390px;
+        display: inline-block;
+    }
